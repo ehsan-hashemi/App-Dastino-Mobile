@@ -1,0 +1,39 @@
+.aboutdastanh2 {
+    text-align: center;
+}
+
+.paragraph {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.das {
+    z-index: -10;
+}
+
+.padp {
+    color: red;
+    font-size: small;
+    text-align: center;
+}
+
+audio {
+  color: white;
+}
+
+.copyrabout {
+    color: blue;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* استایل برای دکمه‌ها */
+audio::-webkit-media-controls-panel {
+  background-color: white; /* رنگ پس‌زمینه */
+}
+
+@media (max-width: 767px) {
+  .aboutdastanh2 {
+    margin-top: 100px;
+  }
+}
